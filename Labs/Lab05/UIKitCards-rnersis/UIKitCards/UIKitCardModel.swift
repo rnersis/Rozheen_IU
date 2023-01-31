@@ -12,7 +12,7 @@ class UIkitCardsModel {
     
     var questionIndex = 0
     
-    var questions = ["What is the main ingredient in Pad Thai?","What is the main ingredient in a Margherita pizza?","What is the highest point on the planet Earth?"]
+    var questions = ["Ingredient in Pad Thai?","What is the main ingredient in a Margherita pizza?","What is the highest point on the planet Earth?"]
     
     var answers =  ["Rice noodles", "Mozzarella", "Mount Everest"]
     
