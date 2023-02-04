@@ -10,8 +10,10 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var calc01Display: UILabel!
-   
+    var numScreen : Int = 0;
+    var operation = 0;
     var binaryNumberBeingEntered: Bool = false
+    var operationEntered: Bool = false
     var theModel = Calc01Model()
     
 // Actions for when 0 or 1 is pressed
@@ -20,14 +22,14 @@ class ViewController: UIViewController {
     // Debug
         print("Zero or one was clicked")
         // Checking for button title
-        if let digit = sender.currentTitle {
+        if binaryNumberBeingEntered == true {
             // checking if user is entering a binary deadline
-            if binaryNumberBeingEntered {
-                calc01Display.text! += digit
+            calc01Display.text = (sender.currentTitle)
+            binaryNumberBeingEntered = false
                 
             }
             else {
-                calc01Display.text = digit
+                calc01Display.text = calc01Display.text! + String(sender.tag-1)
                 binaryNumberBeingEntered = true
             }
         }
@@ -36,19 +38,14 @@ class ViewController: UIViewController {
     
     @IBAction func selectedOperation(_ sender: UIButton){
         print("Operation was clicked")
-        binaryNumberBeingEntered = false
-        if binaryNumberBeingEntered {
-            theModel.setFirstOperand(firstOperand: Int(calc01Display.text!)!)
-            binaryNumberBeingEntered = false
-        }
-        theModel.setOperation(operantion: sender.currentTitle!)
+        if operationEntered == true {
+            
         
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        calc01Display.text = "0"
         // Do any additional setup after loading the view.
     }
 }
