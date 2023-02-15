@@ -8,6 +8,9 @@
 import UIKit
 
 class MyLab11TableViewController: UITableViewController {
+    
+   // Initiate count
+    var count : Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,23 +25,23 @@ class MyLab11TableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        print("in myLab11TableViewController, tableView(numberOfRowsInSection)")
+        print("in myLab11TableViewController, numberOfRowsInSection(tableView)")
         
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       print("in myLab11TableViewController, tableView(numberOfRowsInSection)")
-        return 10
+       print("in myLab11TableViewController, numberOfRowsInSection(tableView)")
+        return 100
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MyLab11TableViewCell", for: indexPath)
 
         // Configure the cell...
-        
-        cell.textLabel?.text = "Hello this is the\(indexPath.row)\th row"
+        count += 1
+        cell.textLabel?.text = "Hello this is the \(count)th row"
 
         return cell
     }
