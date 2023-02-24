@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B8C4CEF5-F0DB-4837-B384-D2D2B6890148"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78864C53-412F-4D01-8F4C-1F5DB874339D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lorem/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C84115A-146B-45E9-A580-F8B90816EF76"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lorem/InteractionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "sendButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7C84115A-146B-45E9-A580-F8B90816EF76 - ff3ba0661029bd35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lorem.InteractionViewController.sendButton(Any) -&gt; ()"
+                  moduleName = "Lorem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rnm/Desktop/Lorem/Lorem/InteractionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "7C84115A-146B-45E9-A580-F8B90816EF76 - ff3ba0661029bd35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lorem.InteractionViewController.sendButton(Any) -&gt; ()"
+                  moduleName = "Lorem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rnm/Desktop/Lorem/Lorem/InteractionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
