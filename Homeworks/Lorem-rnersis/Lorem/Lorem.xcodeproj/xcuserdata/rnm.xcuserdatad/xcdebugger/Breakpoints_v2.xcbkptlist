@@ -20,53 +20,5 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7C84115A-146B-45E9-A580-F8B90816EF76"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Lorem/InteractionViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "sendButton(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7C84115A-146B-45E9-A580-F8B90816EF76 - ff3ba0661029bd35"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Lorem.InteractionViewController.sendButton(Any) -&gt; ()"
-                  moduleName = "Lorem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rnm/Desktop/Lorem/Lorem/InteractionViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "122">
-               </Location>
-               <Location
-                  uuid = "7C84115A-146B-45E9-A580-F8B90816EF76 - ff3ba0661029bd35"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Lorem.InteractionViewController.sendButton(Any) -&gt; ()"
-                  moduleName = "Lorem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rnm/Desktop/Lorem/Lorem/InteractionViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "332">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -13,15 +13,11 @@ class InteractionViewController: UIViewController {
     @IBOutlet weak var viewUIText: UITextView!
     @IBOutlet weak var textFieldUI: UITextField!
     let lorem = Lorem()
+    let loremM = LoremModel()
     
     @IBAction func sendButton(_ sender: Any) {
-    
-        if let input = textFieldUI.text{
-            print("input from text enter")
-            let answer = lorem.oneInteraction(input: input){
-                viewUIText.text += "\(input)\n\(answer))\n"
-        else { return }
-        }
+        if let text = textFieldUI.text{
+            viewUIText.text += text
         }
     }
         
