@@ -33,20 +33,12 @@ class ViewController: UIViewController {
                 binaryNumberBeingEntered = true
             }
         }
-    }
-    
-    
-    @IBAction func selectedOperation(_ sender: UIButton){
-        print("Operation was clicked")
-        if operationEntered == true {
-            
-        
-    }
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 }
+
 
